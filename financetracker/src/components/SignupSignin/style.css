@@ -1,0 +1,59 @@
+.signup-wrapper{
+    width: 70%;
+    max-width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 30px 8px rgba(57, 57, 57, 0.75);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    top: 0;
+    left: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-wrapper{
+    width: 70%;
+    max-width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 30px 8px rgba(57, 57, 57, 0.75);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+.label-input {
+    color: black;
+}
+.title{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+}
+.p-login{
+    text-Align: center;
+    color : grey;
+    margin:0;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.p-signup{
+    text-Align: center;
+    color : grey;
+    margin:0;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.p-signupOr{
+    text-Align: center;
+    color : grey;
+    margin:0;
+    font-weight: 300;
+}
+span{
+    cursor: pointer;
+    font-weight: 500;
+}

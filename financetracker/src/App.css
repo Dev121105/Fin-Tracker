@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    color: white;
+}
+body{
+    color:white;
+}
+.custom-input {
+    margin-top: -1rem !important;
+  }
+  
+  .input-wrapper input::placeholder,
+  .custom-input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .input-wrapper input:focus,
+  .custom-input:focus {
+    outline: none;
+    opacity: 1;
+    transition: all 0.3s;
+  }
+  .chart-wrapper{
+    justify-content: space-between;
+    display: flex;
+    width: 93%;
+    margin-left:25px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+  }
